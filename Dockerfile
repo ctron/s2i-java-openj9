@@ -7,10 +7,10 @@ LABEL maintainer "Jens Reimann <jreimann@redhat.com>"
 USER root
 
 ENV \
- OPENJ9_VERSION=jdk8u162-b12_openj9-0.8.0 
+ OPENJ9_VERSION=jdk8u162-b12_openj9-0.8.0
 
 RUN \
-  curl -L -o /OpenJDK8-OPENJ9_x64_Linux.tar.gz  https://github.com/AdoptOpenJDK/openjdk8-openj9-releases/releases/download/${OPENJ9_VERSION}/OpenJDK8-OPENJ9_x64_Linux_${OPENJ9_VERSION}.tar.gz && \
+  curl -L -o /OpenJDK8-OPENJ9_x64_Linux.tar.gz https://github.com/AdoptOpenJDK/openjdk8-openj9-releases/releases/download/${OPENJ9_VERSION}/OpenJDK8-OPENJ9_x64_Linux_${OPENJ9_VERSION}.tar.gz && \
   cd /usr/lib/jvm && \
   tar xzf /OpenJDK8-OPENJ9_x64_Linux.tar.gz && \
   chmod -R a=rw "/usr/lib/jvm/${OPENJ9_VERSION}" && \
