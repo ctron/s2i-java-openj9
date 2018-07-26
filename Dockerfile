@@ -1,5 +1,5 @@
 
-FROM fabric8/s2i-java:latest
+FROM fabric8/s2i-java:2.2
 
 MAINTAINER Jens Reimann <jreimann@redhat.com>
 LABEL maintainer "Jens Reimann <jreimann@redhat.com>"
