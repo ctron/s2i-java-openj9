@@ -1,4 +1,4 @@
-# Eclipse OpenJ9 Source-to-Image builder image
+# Eclipse OpenJ9 Source-to-Image builder image [![Docker Build](https://img.shields.io/docker/build/ctron/s2i-java-openj9.svg)](https://hub.docker.com/r/ctron/s2i-java-openj9 "Docker Build Status")
 
 This repository contains an S2I builder image for OpenShift using [Eclipse OpenJ9](https://www.eclipse.org/openj9/) 
 (based on OpenJDK and Java 8).
